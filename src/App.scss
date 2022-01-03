@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif, 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+}
+
+body {
+ 
+  background: linear-gradient(to left, silver, steelblue);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#drum-machine {
+  margin: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.drum-pad {
+  min-width: 80px;
+  min-height: 80px;
+}
+
+.wrapper {
+  display: grid;
+  padding: 10px;
+  grid-gap: 15px;
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: rgba(80, 80, 80, 0.603);
+  box-shadow: 4px 6px rgba(0, 0, 0, 0.602);
+}
+
+.keyboard {
+  
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.keyboard, .drum-pad {
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all .1s ease-in-out;
+}
+
+.drum-pad:hover {
+  transition: all .1s ease-in-out;
+  background-color: orange;
+}
+
+.controle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#display {
+  width: 255px;
+  height: 120px;
+  padding: 20px;
+  margin: 10px;
+  background-color: black;
+  color: aliceblue;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  border-radius: 5px;
+  box-shadow: 2px 4px rgba(240, 248, 255, 0.205);
+}
+.dline1 ,.dline2 {
+  margin-left: -10px;
+  margin-top: 0px;
+}
+.dline3 {
+  background-color: black;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+  width: 190px;
+  box-shadow: 2px 4px rgba(240, 248, 255, 0.205);
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  margin: 10px;
+}
+
+a:hover {
+  color:orange;
+}
+
+.controle > button {
+  margin: 10px;
+  letter-spacing: 0.1rem;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.controle > button {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+#acc, #bcc {
+  width: 150px;
+  box-shadow: 3px 5px rgba(0, 0, 0, 0.205);
+}
+
+#acc:hover, #bcc:hover {
+  border-radius:5px;
+  background-color: orange;
+} 
+
+@media(min-width:768px) {
+  .wrapper {
+    width:470px;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media(min-width: 992px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+    width: 768px;
+    max-height: 415px;
+  }
+}
