@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Razzokk8/DrumMachine/static/css/main.0e86a6f4.chunk.css",
+    "main.js": "/Razzokk8/DrumMachine/static/js/main.db135b04.chunk.js",
+    "main.js.map": "/Razzokk8/DrumMachine/static/js/main.db135b04.chunk.js.map",
+    "runtime-main.js": "/Razzokk8/DrumMachine/static/js/runtime-main.f5c7f01a.js",
+    "runtime-main.js.map": "/Razzokk8/DrumMachine/static/js/runtime-main.f5c7f01a.js.map",
+    "static/js/2.36788e58.chunk.js": "/Razzokk8/DrumMachine/static/js/2.36788e58.chunk.js",
+    "static/js/2.36788e58.chunk.js.map": "/Razzokk8/DrumMachine/static/js/2.36788e58.chunk.js.map",
+    "index.html": "/Razzokk8/DrumMachine/index.html",
+    "static/css/main.0e86a6f4.chunk.css.map": "/Razzokk8/DrumMachine/static/css/main.0e86a6f4.chunk.css.map",
+    "static/js/2.36788e58.chunk.js.LICENSE.txt": "/Razzokk8/DrumMachine/static/js/2.36788e58.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5c7f01a.js",
+    "static/js/2.36788e58.chunk.js",
+    "static/css/main.0e86a6f4.chunk.css",
+    "static/js/main.db135b04.chunk.js"
+  ]
+}
